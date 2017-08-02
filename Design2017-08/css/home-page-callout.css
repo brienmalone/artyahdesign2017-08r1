@@ -1,0 +1,40 @@
+.callout {
+    margin-top: 70px;
+}
+
+.callout .image img {
+    padding-left: 50px;
+}
+
+.callout .content {
+    padding-top: 70px;
+}
+
+.callout .content h3 {
+    font-family: Adobe-Garamond-Pro-Italic;
+    font-size: 40pt;
+}
+
+.callout.left .content .copy {
+    font-family: Montserrat-Light;
+    font-size: 16pt;
+    width: 65%;
+    margin-top: 30px;
+}
+
+.callout .content .button .go {
+    border: 0;
+    margin-top:50px;
+    
+}
+
+.callout.right .content-wrapper {
+    text-align: right;
+}
+
+.callout.right .content .copy {
+    font-family: Montserrat-Light;
+    font-size: 16pt;
+    padding-left: 35%;
+    margin-top: 30px;
+}

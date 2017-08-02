@@ -1,0 +1,59 @@
+.hero {
+    display: block;
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/hero/white-roses-antique.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+
+    .hero .chevron {
+        display: block;
+        width: 35px;
+        height: 45px;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+    }
+
+    .hero .chevron-left {
+        background-image: url('../img/hero/chevron-left-35x45.png');
+        margin-left: 10px;
+    }
+
+    .hero .chevron-right {
+        background-image: url('../img/hero/chevron-right-35x45.png');
+        right: 0px;
+    }
+
+    .hero .hero-copy-wrap {
+        display: block;
+        margin-top: 60px;
+        margin-left: 20px
+    }
+
+    .hero .hero-headline {
+        font-family: Adobe-Garamond-Pro-Italic;
+        font-size: 34pt;
+    }
+
+    .hero .hero-copy {
+        display: block;
+        width: 50%;
+        font-family: Montserrat-Light;
+        font-size: 18pt;
+        margin-bottom: 25px;
+    }
+
+    .hero .hero-shop {
+        display: inline-block;
+    }
+    .hero .hero-shop .go {
+        background-color: #d8e2dc;
+        padding: 10px 15px;
+        color: black;
+        text-transform: uppercase;
+        font-family: Montserrat-Regular;
+        border:0;
+    }

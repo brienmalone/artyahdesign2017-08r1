@@ -1,0 +1,95 @@
+﻿header {
+    display: block;
+    height: 75px;
+    margin-top: 15px;
+}
+
+
+    header .title {
+        font-family: HaloHandletter;
+        color: #9a7d85;
+        font-size: 40pt;
+        margin: auto;
+        text-align: center;
+    }
+
+    header .search {
+        margin-left: 30px;
+        margin-top: 15px;
+        display: inline-block;
+        min-width: 250px;
+    }
+
+.search .box {
+    border: 1px solid #d8e2dc;
+    font-size: 11pt;
+    font-family: Montserrat-Regular;
+    padding-left: 10px;
+    height: 40px;
+    width: 200px;
+}
+
+    .search .box:focus {
+        border-color: #9a7d85;
+        outline: none;
+    }
+
+.search .go {
+    display: inline-block;
+    background-color: #d8e2dc;
+    border: 0;
+    padding: 8px 10px 10px 9px;
+}
+
+    .search .go .glyphicon-search {
+        font-size: 1.6em;
+        color: #9a7d85;
+        vertical-align: bottom;
+    }
+
+    .search .go:focus {
+        outline: none;
+    }
+
+.links {
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+    .links div {
+        font-size: 11pt;
+        font-family: Montserrat-Regular;
+        display: inline-block;
+        color: #9a7d85;
+    }
+
+    .links .open-shop .go {
+        background-color: #d8e2dc;
+        text-transform: uppercase;
+        border: 0;
+        padding: 5px 10px;
+        color: #1e1e1e;
+    }
+
+    .links .sign-in {
+        border-right: 1px solid #d8e2dc;
+        
+    }
+    .links .sign-in, .links .register {
+        padding: 5px 10px;
+    }
+    .links .sign-in a, .links .register a,
+    .links .sign-in a:hover, .links .register a:hover,
+    .links .sign-in a:active, .links .register a:active,
+    .links .sign-in a:link, .links .register a:link {
+        color: #1e1e1e;
+        text-decoration: none;
+    }
+
+.cart {
+    color: #9a7d85;
+    font-family: Montserrat-Regular;
+    text-align: right;
+    margin-right: 80px;
+}

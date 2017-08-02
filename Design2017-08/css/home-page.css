@@ -1,0 +1,12 @@
+a, a:link, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.go {
+    background-color: #d8e2dc;
+    font-family: Montserrat-Regular;
+    text-transform: uppercase;
+    padding: 10px;
+   
+}
