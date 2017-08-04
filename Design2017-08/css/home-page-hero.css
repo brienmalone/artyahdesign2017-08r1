@@ -1,6 +1,5 @@
 .hero {
     display: block;
-    width: 100%;
     height: 350px;
     background-image: url('../img/hero/white-roses-antique.png');
     background-repeat: no-repeat;
@@ -33,14 +32,13 @@
         margin-left: 20px
     }
 
-    .hero .hero-headline {
+    .hero .hero-headline, .popular-shops .shop-title {
         font-family: Adobe-Garamond-Pro-Italic;
         font-size: 34pt;
     }
 
-    .hero .hero-copy {
+    .hero .hero-copy, .popular-shops .shop-copy {
         display: block;
-        width: 50%;
         font-family: Montserrat-Light;
         font-size: 18pt;
         margin-bottom: 25px;

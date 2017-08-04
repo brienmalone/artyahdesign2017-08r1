@@ -15,6 +15,7 @@
     <link href="css/home-page-hero.css" rel="stylesheet">
     <link href="css/home-page-sections-and-elements.css" rel="stylesheet">
     <link href="css/home-page-callout.css" rel="stylesheet">
+    <link href="css/home-page-popular-shops.css" rel="stylesheet">
     <style>
         /*
             GRAY: #d8e2dc
@@ -106,10 +107,13 @@
             <a href="#"><i class="chevron chevron-left"></i></a>
         </div>
         <div class="col-md-10">
-            <div class="hero-copy-wrap">
-                <div class="hero-headline">Headline Goes Here</div>
-                <div class="hero-copy">Lorem ipsum dolor sit amet, consecterur adipiscing elit.</div>
-                <div class="hero-shop"><button class="go" type="button"> Shop Art </button></div>
+            <div class="hero-copy-wrap row">
+                <div class="hero-headline col-md-12 row">Headline Goes Here</div>
+                <div class="row">
+                    <div class="hero-copy col-md-6">Lorem ipsum dolor sit amet, consecterur adipiscing elit.</div>
+                    <div class="col-md-offset-6"></div>
+                </div>
+                <div class="hero-shop col-md-12 row"><button class="go" type="button"> Shop Art </button></div>
             </div>
         </div>
         <div class="col-md-1">
@@ -269,16 +273,6 @@
         </div>
         
         <!-- Three Columns -->
-        <style>
-            .three-columns h3 {
-                font-family: Adobe-Garamond-Pro-Italic;
-                font-size:30pt;
-            }
-            .three-columns .col-md-4 {
-                font-family:Montserrat-Regular;
-                font-size:12pt;
-            }
-        </style>
         <div class="section three-columns row">
             <div class="left col-md-4">
                 <h3>Community</h3>
@@ -294,6 +288,8 @@
             </div>
         </div>
 
+        <style>
+        </style>
         <!-- Popular Shops -->
         <div class="section popular-shops">
             <div class="section-header row">
@@ -301,7 +297,15 @@
                 <div class="col-md-4"><h2>Popular Shops</h2></div>
                 <div class="col-md-4"><div class="rule"></div></div>
             </div>
-            <div class="section-content">
+            <div class="section-content row">
+                <div class="top-layer">
+                    <div class="local-nav prev">
+                        <a href="#"><i class="chevron chevron-left-black"></i></a>
+                    </div>
+                    <div class="local-nav next">
+                        <a href="#"><i class="chevron chevron-right-black"></i></a>
+                    </div>
+                </div>
                 <div class="left-content col-md-4">
                     <div class="content-wrapper">
                         <div class="shop-title">Hook &amp; Cable</div>
@@ -310,14 +314,64 @@
                     </div>
                 </div>
                 <div class="right-content col-md-8">
-                    <img src="" />
+                    <img src="img/popular-shops/thread-rings_770x400.png" />
                 </div>
             </div>
+
         </div>
 
-        <!-- Footer-->
-        <div class="footer">
+        <style>
+            .footer {
+                background-color: #d8e2dc;
+                padding:50px 0;
+            }
+        </style>
+    </div>
+    <style>
+        .footer ul {
+            list-style-type: none;
+            text-transform: uppercase;
+            font-family: Montserrat-Regular;
+            font-size:10pt;
+            line-height:1.7em;
+        }
 
+    </style>
+    <!-- Footer-->
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-2">
+                <ul>
+                    <li>About Us</li>
+                    <li>Terms &amp; Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Site Map</li>
+                    <li>Advanced Search</li>
+                    <li>ArtYah Commuity Forum</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li>Open Shop</li>
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                    <li>Updates</li>
+                    <li>For Sellers</li>
+                    <li>Google+ Forum</li>
+                </ul>
+
+            </div>
+            <div class="col-md-6">
+                <div class="social">[f][t][p][e][+]</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1">
+                <div class="col-md-6">[BBB Graphic]</div>
+                <div class="col-md-6">BBB Rating: A<br />as of 7/17/2017<br />Click for Profile</div>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">&copy; 2015-2017 ArtYah. All Rights Reserved.</div>
         </div>
     </div>
             <!-- jQuery Version 1.11.1 -->

@@ -10,3 +10,15 @@ a, a:link, a:hover, a:active {
     padding: 10px;
    
 }
+
+/* three column layout */
+.three-columns h3 {
+    font-family: Adobe-Garamond-Pro-Italic;
+    font-size: 30pt;
+}
+
+.three-columns .col-md-4 {
+    font-family: Montserrat-Regular;
+    font-size: 12pt;
+}
+

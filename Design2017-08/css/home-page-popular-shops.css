@@ -1,0 +1,67 @@
+.chevron-left-black {
+    background-image: url('../img/popular-shops/chevron-left-black-35x45.png');
+}
+
+.popular-shops .chevron-right-black {
+    background-image: url('../img/popular-shops/chevron-right-black-35x45.png');
+    right: 0px;
+}
+
+
+.popular-shops .go {
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+
+.popular-shops .section-content {
+    background-color: #d8e2dc;
+    position: relative;
+}
+
+.popular-shops .left-content .content-wrapper {
+    margin: 100px 10px 50px 80px;
+}
+
+.popular-shops .right-content {
+    padding: 0;
+}
+
+.popular-shops .right-content img {
+    width: 100%;
+    right: 0;
+}
+
+.popular-shops .top-layer {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.popular-shops .chevron {
+    background-repeat: no-repeat;
+    display: block;
+    width: 35px;
+    height: 45px;
+}
+
+.popular-shops .local-nav {
+    position: absolute;
+    top: 45%;
+}
+
+.popular-shops .next {
+    right: 20px;
+}
+
+.popular-shops .prev {
+    left: 20px;
+}
+
+.section.popular-shops
+{
+    margin-bottom:50px;
+}
